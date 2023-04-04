@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Electric Vehicle Recommendation System</title>
+    <link rel="stylesheet" href="preference.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: url('/images/img2.webp') no-repeat center center/cover;
+      }
+      h1 {
+        background-color: #333;
+        color: #fff;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+      form {
+        border: 1px solid #333;
+        margin: 20px auto;
+        padding: 20px;
+        width: 600px;
+      }
+      h2 {
+        margin: 0;
+        padding: 0;
+      }
+      label {
+        display: block;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+      select {
+        margin-top: 5px;
+      }
+      input[type="checkbox"] {
+        margin-left: 10px;
+        margin-right: 5px;
+      }
+      input[type="submit"] {
+        background-color: #333;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 20px;
+        padding: 10px;
+      }
+      input[type="submit"]:hover {
+        background-color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Electric Vehicle Recommendation System</h1>
+    <form>
+      <h2>Criteria:</h2>
+      <label for="price">Price:</label>
+      <select id="price">
+        <option value="any">Any</option>
+        <option value="less-than-20000">$20,000 or less</option>
+        <option value="20000-30000">$20,000 - $30,000</option>
+        <option value="30000-40000">$30,000 - $40,000</option>
+        <option value="more-than-40000">More than $40,000</option>
+      </select>
+      <br>
+      <label for="range">Range:</label>
+      <select id="range">
+        <option value="any">Any</option>
+        <option value="less-than-150">Less than 150 miles</option>
+        <option value="150-250">150 - 250 miles</option>
+        <option value="250-350">250 - 350 miles</option>
+        <option value="more-than-350">More than 350 miles</option>
+      </select>
+      <br>
+      <label for="battery-capacity">Battery Capacity:</label>
+      <select id="battery-capacity">
+        <option value="any">Any</option>
+        <option value="less-than-60">Less than 60 kWh</option>
+        <option value="60-80">60 - 80 kWh</option>
+        <option value="80-100">80 - 100 kWh</option>
+        <option value="more-than-100">More than 100 kWh</option>
+      </select>
+      <br>
+      <label for="charging-time">Charging Time:</label>
+      <select id="charging-time">
+        <option value="any">Any</option>
+        <option value="less-than-8">Less than 8 hours</option>
+        <option value="8-12">8 - 12 hours</option>
+        <option value="12-16">12 - 16 hours</option>
+    </body>
+    </html>

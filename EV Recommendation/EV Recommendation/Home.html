@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EV Recommendation System - Questionnaire</title>
+	<link rel="stylesheet" href="Home.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#" class="nav-link">Home</a></li>
+				<li><a href="#" class="nav-link">Login</a></li>
+				<li><a href="#" class="nav-link">Register</a></li>
+				<li><a href="#" class="nav-link">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="questionnaire">
+			<h2>Let's Get Started!</h2>
+			<p>Please answer the following questions to get personalized EV recommendations</p>
+
+			<form>
+				<fieldset>
+					<legend>What is your budget?</legend>
+					<input type="radio" id="budget1" name="budget" value="budget1">
+					<label for="budget1">$15,000 - $25,000</label><br>
+
+					<input type="radio" id="budget2" name="budget" value="budget2">
+					<label for="budget2">$25,000 - $35,000</label><br>
+
+					<input type="radio" id="budget3" name="budget" value="budget3">
+					<label for="budget3">$35,000 - $50,000</label><br>
+
+					<input type="radio" id="budget4" name="budget" value="budget4">
+					<label for="budget4">Above $50,000</label><br>
+				</fieldset>
+
+				<fieldset>
+					<legend>What is your daily commute distance?</legend>
+					<input type="radio" id="distance1" name="distance" value="distance1">
+					<label for="distance1">Less than 50 km</label><br>
+
+					<input type="radio" id="distance2" name="distance" value="distance2">
+					<label for="distance2">50 - 100 km</label><br>
+
+					<input type="radio" id="distance3" name="distance" value="distance3">
+					<label for="distance3">Above 100 km</label><br>
+				</fieldset>
+
+				<fieldset>
+					<legend>Do you have access to charging facilities?</legend>
+					<input type="radio" id="charging1" name="charging" value="charging1">
+					<label for="charging1">Yes</label><br>
+
+					<input type="radio" id="charging2" name="charging" value="charging2">
+					<label for="charging2">No</label><br>
+				</fieldset>
+
+				<button type="submit" class="btn">Get Recommendations</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 EV Recommendation System</p>
+	</footer>
+</body>
+</html>

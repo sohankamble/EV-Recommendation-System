@@ -1,0 +1,126 @@
+/* Reset CSS */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    background: url('/images/img1.webp') ;
+}
+
+/* Global Styles */
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar Styles */
+
+nav {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin: 0;
+}
+
+.nav-link {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+	background-color: #46d61a;
+	color: #333;
+}
+
+/* Page 1 Styles */
+
+.hero {
+	background-color: #f2f2f2;
+	padding: 50px;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 1.5rem;
+	margin-bottom: 40px;
+}
+
+.btn {
+	background-color: #333;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+/* Page 2 Styles */
+
+.questionnaire {
+	background-color: #f2f2f2;
+	padding: 50px;
+	text-align: center;
+}
+
+.questionnaire h2 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+.questionnaire p {
+	font-size: 1.25rem;
+	margin-bottom: 40px;
+}
+
+fieldset {
+	margin-bottom: 20px;
+	border: none;
+}
+
+legend {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+input[type="radio"] {
+	margin-right: 10px;
+}
+
+.btn {
+	background-color: #333;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #333;
+}
